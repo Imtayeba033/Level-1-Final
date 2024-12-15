@@ -23,7 +23,7 @@ const apiData =()=>{
         alt="Shoes" />
     </figure>
     <div class="card-body">
-      <h2 class="card-title">${posted_date}</h2>
+      <h2 class="card-title">${author.posted_date}</h2>
       <p>${title}</p>
         <p>${description}</p>
         <div class="flex gap-5">
@@ -33,7 +33,7 @@ const apiData =()=>{
       alt="Movie" />
   </figure>
         <div class="items-center"><p>${author.name}</p>
-         <p>${designation}</p></div>
+         <p>${author.designation}</p></div>
         </div>
        
     </div>
